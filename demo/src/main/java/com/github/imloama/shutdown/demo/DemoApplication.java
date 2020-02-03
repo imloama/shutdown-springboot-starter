@@ -1,4 +1,4 @@
-package com.github.imloama.shutdown.springboot.starter.demo;
+package com.github.imloama.shutdown.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,1 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.imloama.shutdown.springboot.starter.ShutdownAutoConfigure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.imloama.shutdown.springboot.starter.ShutdownAutoConfigure

@@ -1,4 +1,4 @@
-package com.github.imloama.shutdown.springboot.starter.demo;
+package com.github.imloama.shutdown.demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
