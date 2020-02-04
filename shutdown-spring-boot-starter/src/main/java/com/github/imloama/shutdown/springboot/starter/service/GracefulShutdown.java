@@ -19,11 +19,13 @@ public class GracefulShutdown implements ApplicationListener<ContextClosedEvent>
 
     public void onApplicationEvent(ContextClosedEvent event) {
         if(this.serverCloseListener != null){
+            log.debug("stoping server...");
             try {
                 this.serverCloseListener.shutdown();
             } catch (Exception e) {
                 log.error(e.getMessage(), e);
             }
+            log.debug("server stoped!");
         }
 
        if(this.task!=null){
@@ -36,5 +38,6 @@ public class GracefulShutdown implements ApplicationListener<ContextClosedEvent>
             }
             this.scheduler.shutdown();
         }
+        log.debug("springboot graceful shutdown over!");
     }
 }

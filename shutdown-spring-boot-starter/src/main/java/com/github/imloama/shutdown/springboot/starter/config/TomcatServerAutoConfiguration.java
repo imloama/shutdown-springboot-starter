@@ -17,7 +17,7 @@ public class TomcatServerAutoConfiguration {
 
     @Bean
     @ConditionalOnClass({Tomcat.class, UpgradeProtocol.class})
-    public IServerCloseListener tomcatShutdownListener(){
+    public TomcatServerCloseListener tomcatShutdownListener(){
         TomcatServerCloseListener listener = new TomcatServerCloseListener();
         listener.setProperties(properties);
         return listener;

@@ -17,7 +17,7 @@ public class JettyServerAutoConfiguration {
     ShutdownProperties properties;
 
     @Bean
-    public IServerCloseListener jettyShutdownListener(){
+    public JettyServerCloseListener jettyShutdownListener(){
         JettyServerCloseListener listener = new JettyServerCloseListener();
         listener.setProperties(properties);
         return listener;

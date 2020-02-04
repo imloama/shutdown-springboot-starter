@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: debug
+    org:
+      springframework: warn
+    com:
+      github:
+        imloama: debug
