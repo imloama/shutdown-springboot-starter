@@ -17,7 +17,7 @@
 
 	<groupId>com.github.imloama</groupId>
 	<artifactId>shutdown-spring-boot-starter-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>shutdown-spring-boot-starter-parent</name>
 	<description>shutdown for springboot projects</description>
 
